@@ -1,6 +1,7 @@
 #function to calculate the time required to get sober if you drink just beer (0.5 litres) in Czech Republic
 def sober_calc(sex, body_weight, drink_volume):
     beer_alcohol_content = 5
+#beta is a constant showing how much grams of alcohol are degraded in an hour per 1 kilogram of body weight 
     if sex == "f":
         beta = 0.085
     if sex == "m":
